@@ -1,0 +1,103 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111827;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    flex-direction: column;
+}
+
+.container table {
+    border-spacing: 0 3px;
+    border-collapse: separate;
+}
+
+.container table th{
+    padding: 5px;
+    background-color: #5F9EA0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.container table td {
+    padding: 12px;
+    text-align: center;
+}
+
+#cadastro input {
+    margin-bottom: 15px;
+    border: none;
+    border-bottom:1px solid black;
+    outline: none;
+    letter-spacing: 2px;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+label {
+    color: white;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+
+#btn {
+    width: 60%;
+    display: block;
+    margin: 10px auto 5px auto;
+    padding: 10px;
+	background:linear-gradient(to bottom, #79bbff 5%, #6366F1 100%);
+	border-radius:6px;
+	border:1px solid #6366F1;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:19px;
+	font-weight:bold;
+}
+
+#btn:hover{
+    background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5; 
+}
+
+#btn:active {
+	position:relative;
+	top:1px;
+    color: black;
+}
+
+#cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+fieldset{
+    border: 2px solid dodgerblue;
+    border-radius: 4px;
+}
+
+legend{
+    border: 1px solid dodgerblue;
+    padding: 5px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    font-weight: bolder;
+}

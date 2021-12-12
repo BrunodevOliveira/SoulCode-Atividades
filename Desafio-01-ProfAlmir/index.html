@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastre-se</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <h1>Lista de Alunos</h1>
+        <div class="container">
+            <fieldset id="cadastro">
+
+                <legend>Cadastrar aluno</legend>
+                <label for="nome">Nome completo:</label>
+                <input type="text" name="nome" id="nome">
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="text" name="nascimento" id="nascimento" placeholder="dia/mês/ano">
+                <label for="tel">Telefone:</label>
+                <input type="tel" name="tel" id="tel" placeholder="(21)12345-6789">
+
+                <button id="btn">Inserir</button>
+            </fieldset>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nome</th>
+                        <th>Nascimento</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            
+        </div>
+        <script src="scripts/cadastro.js"></script>
+    </body>
+</html>
